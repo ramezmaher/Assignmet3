@@ -149,12 +149,4 @@ public class PlayerFinder implements IPlayersFinder {
 	sortArray(P);
 	return P;
 }
-
-public static void main(String[] args) {
-	PlayerFinder j = new PlayerFinder();
-	String arr[] = {"33JUBU33","3U3O4433","O33P44NB","PO3NSDP3","VNDSD333","OINFD33X"};
-	Point P[] =new Point[3];
-	P=j.findPlayers(arr,3,16);
-	System.out.print(P[0].x+P[0].y+P[1].x+P[1].y+ P[2].x+P[2].y);
-}
 }
